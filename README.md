@@ -21,7 +21,7 @@ M-Team 种子列表每行最左侧的缩略图用的是 antd 的 `Image` 组件�
 ## 特性
 
 - **悬停即看**：默认 120ms 后弹出，快速划过不会闪。
-- **大图**：等比放大到可用区域的极限，最高可占屏幕 90% 以上高度。
+- **大图**：等比放大到可用区域的极限，实测可占视口高度的 88%–97%。
 - **不挡鼠标**：视口被切成「右 / 左 / 下 / 上」四块候选区，大图只在缩略图矩形之外绘制。
 - **贴边智能翻转**：缩略图靠左边就往右展开，靠右边就自动翻到左侧，上下空间大时改放上下。
 - **无封面跳过**：没有封面的种子（站点用 `emptyImg.svg` 占位）不会弹出一张破图。
@@ -44,7 +44,7 @@ https://raw.githubusercontent.com/wangheqiang530/MT-hover-preview/main/mteam-hov
 
 下载 [`mteam-hover-thumbnail.user.js`](mteam-hover-thumbnail.user.js)，拖进浏览器窗口，或粘贴到扩展的「新建脚本」里保存。
 
-装好后打开 <https://kp.m-team.cc/browse/>，脚本会自动生效，**无需刷新以外的任何操作**。
+装好后打开（或刷新）<https://kp.m-team.cc/browse/> 即可生效，不需要任何额外设置。
 
 ## 使用
 
@@ -52,7 +52,7 @@ https://raw.githubusercontent.com/wangheqiang530/MT-hover-preview/main/mteam-hov
 
 ## 可调参数
 
-脚本开头的常量区（约第 46–56 行），想改手感直接改这几个数：
+脚本开头的常量区（第 49–57 行），想改手感直接改这几个数：
 
 | 常量 | 默认值 | 作用 |
 | --- | --- | --- |
