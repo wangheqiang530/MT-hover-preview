@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         M-Team 种子缩略图悬停预览
-// @namespace    https://github.com/wangheqiang530/MT悬停大图
+// @namespace    https://github.com/wangheqiang530/MT-hover-preview
 // @version      1.6.1
 // @description  鼠标悬停在 M-Team 种子缩略图上自动弹出大图（最多约占屏幕 90%，且避开缩略图不挡鼠标），移开自动收起，不用再点击
 // @author       wangheqiang530
-// @homepageURL  https://github.com/wangheqiang530/MT悬停大图
-// @supportURL   https://github.com/wangheqiang530/MT悬停大图/issues
+// @homepageURL  https://github.com/wangheqiang530/MT-hover-preview
+// @supportURL   https://github.com/wangheqiang530/MT-hover-preview/issues
 // @license      MIT
 // @match        *://*.m-team.cc/*
 // @match        *://m-team.cc/*

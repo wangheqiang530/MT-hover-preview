@@ -1,5 +1,7 @@
 # MT悬停大图
 
+> 项目名 **MT悬停大图**，仓库 slug 为 `MT-hover-preview`（GitHub 仓库名只接受 ASCII 字符，中文名保留在此处与仓库简介里）。
+
 给 [M-Team](https://kp.m-team.cc)（馒头 PT）种子列表用的脚本猫 / 油猴脚本：**鼠标悬停在种子缩略图上，自动弹出大图；移开自动收起**，不用再点开原生预览、也不用手动点遮罩关闭。
 
 > 大图会主动避开鼠标所在的位置——图始终画在缩略图矩形之外，不会盖住你正在指的地方。
@@ -35,7 +37,7 @@ M-Team 种子列表每行最左侧的缩略图用的是 antd 的 `Image` 组件�
 先装 [ScriptCat（脚本猫）](https://scriptcat.org) 或 Tampermonkey，然后打开下面的链接，扩展会接管安装：
 
 ```
-https://raw.githubusercontent.com/wangheqiang530/MT%E6%82%AC%E5%81%9C%E5%A4%A7%E5%9B%BE/main/mteam-hover-thumbnail.user.js
+https://raw.githubusercontent.com/wangheqiang530/MT-hover-preview/main/mteam-hover-thumbnail.user.js
 ```
 
 ### 方式二：手动
